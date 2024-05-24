@@ -699,10 +699,11 @@ footer {
 
 	.banner #titlehome {
 		width: 75%;
-        height: 55vh;
+        height: 60vh;
         align-items: center;
         justify-content: flex-end;
-        margin: 0 0 0 20px;
+		margin: 0 0 0 16px;
+        padding: 30px;
 	}
 
 	#titlehome h1 {
