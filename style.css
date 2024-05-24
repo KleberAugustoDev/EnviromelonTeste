@@ -833,7 +833,7 @@ footer {
 
 	#transpotext p {
 		height: 20px;
-        width: 100% !important;
+        width: 90% !important;
         margin-left: 10px;
         font-size: 14px;
         line-height: 20px;
@@ -901,8 +901,8 @@ footer {
 	}
 
 	#wastetext p {
-        margin-left: 0;
-        width: 100% !important;
+        margin-left: 20px;
+        width: 95% !important;
         height: 15px;
         font-size: 14px;
         line-height: 15px;
