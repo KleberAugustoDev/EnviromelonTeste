@@ -804,6 +804,10 @@ footer {
         height: 15px;
 	}
 
+	#tanktext p::before {
+		padding-right: 10px;
+	}
+
 	/* TANK SERVICES */
 
 	/* TRANSPORTATION */
