@@ -547,14 +547,22 @@ footer {
     width: 80%;
 }
 
+/* FOOTER */
 
-/* MOBILE SMALL */
+/* PAGE THANKS */
 
-/* MOBILE SMALL */
+.tnks {
+	display: flex;
+    flex-direction: column;
+	height: 100vh;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
 
-
-/* MOBILE SMALL */
-
+/* PAGE THANKS */
 
 /* MOBILE ALL */
 @media only screen and (min-width:100px) and (max-width: 1080px) and (max-height: 1000px) {
