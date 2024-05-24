@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <script src="./custom.js"></script>
+    <title>Enviremelon</title>
+
+</head>
+
+<body>
+    <header>
+        <div id="menu">
+            <div id="logo">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#titlehome">About</a></li>
+                    <li><a href="#redirectabout">Services</a>
+                        <!-- First Tier Drop Down -->
+                        <ul>
+                            <li><a href="#redirecttank">Tank Services</a></li>
+                            <li><a href="#">Transportation, Fuel & Oil Services</a></li>
+                            <li><a href="#">Waste Management Services</a></li>
+                            <!-- First Tier Drop Down -->
+                        </ul>
+                    </li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <!-- MENU DROPDOWN -->
+        <div class="menu">
+            <div id="logomobile">
+                <img src="./Images/Ativo6.png" alt="">
+            </div>
+            <div class="dropdown">
+                <button onclick="myFunction()" class="dropbtn"><embed src="./Images/BOTÃO_MENU.png"/></button>
+                <div id="myDropdown" class="dropdown-content">
+                    <ul class="ulmobile">
+                        <li id="limobile"><a href="#redirectbanner">About</a></li>
+                        <li id="limobile"><a href="#tanktext">Tank Services</a></li>
+                        <li id="limobile"><a href="#transpotext">Transportation</a></li>
+                        <li id="limobile"><a href="#wastetext">Waste Management Services</a></li>
+                        <li id="limobile"><a href="#redirectcontact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        <!-- MENU DROPDOWN -->
+
+    </header>
+
+    <section class="banner" id="redirectbanner">
+        <div id="titlehome">
+            <h1>Environmental<br>
+                cleanup for<br>
+                gas stations.
+            </h1>
+            <p>The need for energy sources has planted the seed
+                for Enviromelon™. Although we can't live without
+                our current energy sources, we can't ignore the
+                environmental impact they cause when something
+                goes wrong. Enviromelon™ is ready to help you and
+                your business take on the often-confusing tasks
+                of cleaning up your property.</p>
+        </div>
+        <div id="ativo">
+
+        </div>
+    </section>
+
+    <div class="ourservice">
+        <h1>Our Services</h1>
+        <h2>Our state-of-the-art vacuum trucks and equipment helps us offer you services such as wastewater removal,
+        storage tank cleanup, removal of contaminants, and much more.
+        </h2>
+    </div>
+
+    <section class="teste">
+        
+            <div id="tankimg">
+                <img src="./Images/img2D.png" alt="">
+            </div>
+            <div id="tanktext">
+                <div id="align">
+                    <h1>Tank Services</h1>
+                    <p>Tank cleaning and preparation for inspections</p>
+                    <p>Tank cleaning for product changes</p>
+                    <p>Product pump-outs and transfers</p>
+                </div>
+            </div>
+
+            <div id="transpoborder"></div>
+
+            <div id="box">
+                <div id="transpotext">
+                    <div id="align">
+                        <h1>Transportation,<br>Fuel & Oil Services</h1>
+                        <p>Vacuum truck cleanup</p>
+                        <p>Gas station and carwash cleanup</p>
+                        <p>Collection of used oil and reprocessing</p>
+                        <p>Fuel polishing and filtering</p>
+                        <p>Removal of contaminated soil and sludge</p>
+                        <p>Hauling and transportation</p>
+                    </div> 
+                </div> 
+            </div> 
+
+            <div id="transpoimg">
+                
+            </div>
+
+            <div id="greenback"></div>
+
+            <div id="wasteimg"></div>
+
+            <div id="wastetext">
+                <div id="align">
+                    <h1>Waste Management Services</h1>
+                    <p>Wastewater processing and disposal</p>
+                    <p>Hazardous and solid waste disposal</p>
+                    <p>Drum handling and disposal</p>
+                    <p>Site assessment and environmental restoration</p>
+                </div>
+            </div>
+
+            <div id="banner"></div>
+
+    </section>
+    
+    <section class="contact" id="redirectcontact">
+        <div id="title">
+            <h1>Talk To Us</h1>
+        </div>
+        <form action="" id="form" method="POST">
+            <input type="text" name="fname" id="fname" placeholder="First Name" required>
+            <input type="text" name="name" id="lname" placeholder="Last Name" required>
+            <input type="email" id="email" name="e-mail" placeholder="Email" required>
+            <input type="tel" id="phone" name="Phone" placeholder="Phone">
+            <textarea name="message" id="textarea"  placeholder="Leave your messagem here"></textarea>
+            <button type="submit" id="btn">Submit</button>
+        </form>
+    </section>
+
+    <footer>
+        <div id="flogo">
+            <img src="./Images/Ativo6.png" alt="">
+        </div>
+        <div id="infos">
+            <h2>From the Ground Up.</h2>
+            <p>790 NW 58th Street - Doral, FL 33166</p>
+        </div>
+        <div id="social">
+            <p>info@enviremelon.com</p>
+            <img src="./Images/Ativo 8.png" alt="" onclick="window.location='https://www.google.com/';">
+            <img src="/Images/Ativo 7.png" alt="">
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
