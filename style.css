@@ -552,6 +552,9 @@ footer {
 /* PAGE THANKS */
 
 .tnks {
+	background-image: url(./Ativos/Ativo4.png);
+    background-size: cover;
+	background-repeat: no-repeat;
 	display: flex;
     flex-direction: column;
 	height: 100vh;
@@ -560,6 +563,12 @@ footer {
     justify-content: center;
     margin: 0;
     padding: 0;
+}
+
+#tnkstext {
+	height: 50%;
+	width: 50%;
+	background-color: #FF7077;
 }
 
 /* PAGE THANKS */
