@@ -184,6 +184,10 @@ li > a:only-child:after { content: ''; }
     background: #F6FAC5;
 	}
 
+#titlehome h1 {
+	line-height: 60px;
+}
+
 #titlehome p {
 	font-size: 20px;
     line-height: 30px;
@@ -221,12 +225,7 @@ li > a:only-child:after { content: ''; }
 
 /* OUR SERVICES */
 
-
-
-
-
-
-.teste {
+.grid {
 	height: auto;
     width: 100%;
     display: grid;
