@@ -1031,6 +1031,11 @@ footer {
 	grid-row: 1;
 }
 
+#flogo img {
+	width: 220px;
+    height: 60px;
+}
+
 #infos {
     text-align: center;
 	grid-column: 1;
