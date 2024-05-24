@@ -229,7 +229,7 @@ li > a:only-child:after { content: ''; }
 	height: auto;
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(16, 110px);
+    grid-template-columns: repeat(10, 10%);
     grid-template-rows: repeat(26, 110px);
     gap: 10px;
     row-gap: 8px;
@@ -240,7 +240,7 @@ li > a:only-child:after { content: ''; }
 #tankimg {
 	width: 680px;
     height: 700px;
-    grid-column: 1 / 5;
+	grid-column: 1 / 5;
     grid-row: 1 / 5;
     margin-left: 120px;
     margin-top: 30px;
@@ -250,7 +250,7 @@ li > a:only-child:after { content: ''; }
 #tanktext {
 	height: 350px;
     width: 99vh;
-    grid-column: 9 / 16;
+	grid-column: 6 / 10;
 	grid-row: 1 / 5;
     color: #22450A;
     border-bottom: solid 5px #FF7077;
@@ -282,7 +282,7 @@ margin-left: 40px;
 #transpoborder {
 	border-left: solid 5px #FF7077;
 	border-radius: 2px;
-	grid-column: 3 / 3;
+	grid-column: 2 / 2;
 	grid-row: 8 / 16;	
 
 }
@@ -291,7 +291,7 @@ margin-left: 40px;
 	background-color: #FF7077;
     width: 800px;
     height: 680px;
-    grid-column: 4 / 6;
+	grid-column: 3 / 5;
 	grid-row: 8 / 9;
     position: relative;
     z-index: 10;
@@ -328,7 +328,7 @@ margin-left: 40px;
 #transpoimg {
 	height: 1080px;
     width: 850px;
-    grid-column: 9 / 9;
+	grid-column: 6 / 9;
 	grid-row: 7 / 11;
     position: relative;
     z-index: 9;
@@ -344,9 +344,10 @@ margin-left: 40px;
 #greenback {
 	background-image: url(./Ativos/Ativo4.png);
     background-size: cover;
-    grid-column: 1 / 16;
+	background-position: center;
+    grid-column: 1 / 10;
     grid-row: 15 / 17;
-    width: 1903px;
+    width: 100%;
     height: 350px;
     position: relative;
     z-index: 8;
@@ -361,7 +362,7 @@ margin-left: 40px;
     background-size: cover;
 	background-position: center;
     background-repeat: no-repeat;
-    grid-column: 1 / 4;
+	grid-column: 1 / 4;
 	grid-row: 16 / 20;
     position: relative;
     z-index: 9;
@@ -372,7 +373,7 @@ margin-left: 40px;
 #wastetext {
 	width: 99vh;
 	height: 500px;
-    grid-column: 9 / 16;
+    grid-column: 6 / 10;
     grid-row: 19 / 20;
     border-bottom: solid 5px #FF7077;
     border-radius: 2px;
