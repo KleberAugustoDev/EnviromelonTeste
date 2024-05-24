@@ -935,6 +935,7 @@ footer {
     display: grid;
 	grid-template-columns: repeat(1, 100%);
     width: 100%;
+	height: 15%;
 }
 
 #title h1 {
@@ -944,6 +945,7 @@ footer {
 
 #form {
 	width: 80%;
+	height: 85%;
     display: grid;
 	grid-template-columns: repeat(1, 100%);
     gap: 25px;
