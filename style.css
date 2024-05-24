@@ -231,7 +231,7 @@ li > a:only-child:after { content: ''; }
     display: grid;
     grid-template-columns: repeat(10, 10%);
     grid-template-rows: repeat(26, 110px);
-    gap: 10px;
+    gap: 0;
     row-gap: 8px;
 }
 
