@@ -975,7 +975,7 @@ footer {
 }
 
 #email {
-	height: 50%;
+	height: 100%;
 	width: 100%;
 	text-align: center;
     grid-column: 1;
