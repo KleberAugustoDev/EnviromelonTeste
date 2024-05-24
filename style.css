@@ -949,7 +949,8 @@ footer {
 	height: 85%;
     display: grid;
 	grid-template-columns: repeat(1, 100%);
-    gap: 15px;
+	grid-template-rows: repeat(10, 50px);
+    gap: 20px;
     align-items: center;
     justify-content: center;
 }
@@ -996,22 +997,23 @@ footer {
 	height: 100%;
 	text-align: center;
     grid-column: 1;
-    grid-row: 5;
+    grid-row: 5 / 8;
     padding-top: 20px;
 	padding-left: 0;
 }
 
 #btn {
     grid-column: 1;
-    grid-row: 6;
+    grid-row: 8;
 	height: 100%;
     width: 102%;
 	margin-left: 0;
-	margin-top: 10px;
+	margin-top: 0;
     
 }
 
 ::placeholder {
+	padding-top: 10px;
 	font-size: 16px;
 }
 
