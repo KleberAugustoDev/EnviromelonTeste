@@ -966,6 +966,7 @@ footer {
 	grid-row: 1;
 	text-align: center;
 	color: #56352C;
+	margin-bottom: 30px;
 }
 
 #fname {
@@ -1010,7 +1011,7 @@ footer {
 	height: 100%;
 	text-align: center;
     grid-column: 1;
-    grid-row: 7 / 9;
+    grid-row: 7 / 10;
 	padding-top: 0;
 	padding-left: 0;
 }
