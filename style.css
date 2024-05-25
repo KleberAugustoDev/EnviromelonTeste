@@ -945,6 +945,7 @@ footer {
 
 .contact {
 	height: 700px;
+	justify-content: flex-start;
 }
 
 #form {
