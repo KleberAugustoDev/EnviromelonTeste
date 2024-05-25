@@ -966,12 +966,11 @@ footer {
 	grid-row: 1;
 	text-align: center;
 	color: #56352C;
-	margin-bottom: 30px;
+	margin-bottom: 0px;
 }
 
 #title h1 {
 	font-size: 46px;
-	line-height: 30px;
 }
 
 
