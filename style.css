@@ -947,25 +947,24 @@ footer {
 	height: 700px;
 }
 
-
-#title {
-	height: 100%;
-    width: 100%;
-    grid-column: 1 / 1;
-    grid-row: 1;
-    margin-bottom: -40px;
-	color: #56352C;
-}
-
 #form {
 	width: 80%;
 	height: 85%;
     display: grid;
 	grid-template-columns: repeat(1, 100%);
-	grid-template-rows: repeat(10, 50px);
+	grid-template-rows: repeat(11, 50px);
     gap: 20px;
     align-items: center;
     justify-content: center;
+}
+
+#title {
+	height: 100%;
+    width: 100%;
+    grid-column: 1 / 1;
+	grid-row: 1;
+	text-align: center;
+	color: #56352C;
 }
 
 #fname {
@@ -973,7 +972,7 @@ footer {
     width: 100%;
 	text-align: center;
     grid-column: 1;
-    grid-row: 1;
+    grid-row: 3;
 	padding-left: 0;
     
 }
@@ -983,7 +982,7 @@ footer {
 	width: 100%;
 	text-align: center;
     grid-column: 1;
-    grid-row: 2;
+    grid-row: 4;
 	padding-left: 0;
 }
 
@@ -992,7 +991,7 @@ footer {
 	width: 100%;
 	text-align: center;
     grid-column: 1;
-    grid-row: 3;
+    grid-row: 5;
 	padding-left: 0;
 }
 
@@ -1001,7 +1000,7 @@ footer {
 	width: 100%;
 	text-align: center;
     grid-column: 1;
-    grid-row: 4; 
+    grid-row: 6; 
 	padding-left: 0;
 }
 
@@ -1010,14 +1009,14 @@ footer {
 	height: 100%;
 	text-align: center;
     grid-column: 1;
-    grid-row: 5 / 8;
+    grid-row: 7 / 9;
 	padding-top: 0;
 	padding-left: 0;
 }
 
 #btn {
     grid-column: 1;
-    grid-row: 8;
+    grid-row: 10;
 	height: 100%;
     width: 102%;
 	margin-left: 0;
@@ -1026,7 +1025,7 @@ footer {
 }
 
 ::placeholder {
-	padding-top: 10px;
+	padding-top: 20px;
 	font-size: 16px;
 }
 
