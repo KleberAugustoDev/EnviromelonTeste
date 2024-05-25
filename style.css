@@ -206,13 +206,26 @@ li > a:only-child:after { content: ''; }
 
 /* BANNER HOME */
 
+
+
+.grid {
+	height: auto;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(10, 10%);
+    grid-template-rows: repeat(26, 110px);
+    gap: 0;
+    row-gap: 8px;
+}
+
 /* OUR SERVICES */
 
 .ourservice {
-	width: 30%;
+	width: 100%;
 	line-height: 32px;
-    margin-left: 120px;
     direction: ltr;
+	grid-column: 1 / 5;
+	grid-row: 1 / 2;
 }
 
 .ourservice h1, .ourservice h2 {
@@ -225,22 +238,13 @@ li > a:only-child:after { content: ''; }
 
 /* OUR SERVICES */
 
-.grid {
-	height: auto;
-    width: 100%;
-    display: grid;
-    grid-template-columns: repeat(10, 10%);
-    grid-template-rows: repeat(26, 110px);
-    gap: 0;
-    row-gap: 8px;
-}
 
 /* TANK SERVICES */
 
 #tankimg {
 	width: 680px;
     height: 700px;
-	grid-column: 1 / 5;
+	grid-column: 2 / 6;
     grid-row: 1 / 5;
     margin-left: 120px;
     margin-top: 30px;
@@ -251,7 +255,7 @@ li > a:only-child:after { content: ''; }
 	height: 350px;
     width: 100%;
     grid-column: 6 / 11;
-	grid-row: 1 / 5;
+	grid-row: 2 / 6;
     color: #22450A;
     border-bottom: solid 5px #FF7077;
 	border-radius: 2px;
@@ -283,7 +287,7 @@ margin-left: 40px;
 	border-left: solid 5px #FF7077;
 	border-radius: 2px;
 	grid-column: 2 / 2;
-	grid-row: 8 / 16;	
+	grid-row: 7 / 16;	
 
 }
 
@@ -292,7 +296,7 @@ margin-left: 40px;
     width: 800px;
     height: 680px;
 	grid-column: 3 / 5;
-	grid-row: 8 / 9;
+	grid-row: 7 / 9;
     position: relative;
     z-index: 10;
 }
