@@ -863,7 +863,7 @@ footer {
 
 	#transpotext h1 {
 		margin-left: 0;
-		text-align: center;
+        text-align: left;
 		font-size: 35px;
 	}
 
@@ -941,11 +941,11 @@ footer {
     }
 
 	#wastetext h1 {
-		width: 100%;
+		width: 90%;
+        text-align: left;
         height: 100px;
         font-size: 32px;
         line-height: 40px;
-        text-align: center;
 		margin-bottom: 0;
 	}
 
