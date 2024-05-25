@@ -818,6 +818,9 @@ footer {
 	}
 
 	#tanktext p::before {
+		display: inline-block;
+		width: 10px;
+		height: 10px;
 		padding-right: 5px !important;
     	vertical-align: -30% !important;
 	}
@@ -853,6 +856,9 @@ footer {
 	}
 
 	#transpotext p::before {
+		display: inline-block;
+		width: 10px;
+		height: 10px;
 		padding-right: 5px !important;
     	vertical-align: -30% !important;
 	}
