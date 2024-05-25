@@ -304,18 +304,17 @@ margin-left: 40px;
 	display: flex;
     flex-direction: column;
     justify-content: center;
+	align-items: center;
 }
 
 #transpotext h1 {
 	font-family: EthosNova-Heavy;
 	color: #56352C;
-	margin-left: 12vh;
 	text-align: left;
 }
 
 #transpotext p {
 	color: white;
-	margin-left: 20vh;
 	height: 20px;
 }
 
