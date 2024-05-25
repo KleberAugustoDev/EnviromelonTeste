@@ -812,15 +812,15 @@ footer {
 	#tanktext p {
 		margin-left: 0;
 		width: 90% !important;
-		font-size: 14px;
+		font-size: 11px;
 		line-height: 15px;
-        height: 15px;
+        height: 20px;
 	}
 
 	#tanktext p::before {
 		display: inline-block;
-		width: 10px;
-		height: 10px;
+		width: 30px;
+        height: 20px;
 		padding-right: 5px !important;
     	vertical-align: -30% !important;
 	}
@@ -851,14 +851,14 @@ footer {
 		height: 20px;
         width: 90% !important;
         margin-left: 10px;
-        font-size: 14px;
+        font-size: 11px;
         line-height: 20px;
 	}
 
 	#transpotext p::before {
 		display: inline-block;
-		width: 10px;
-		height: 10px;
+		width: 30px;
+        height: 20px;
 		padding-right: 5px !important;
     	vertical-align: -30% !important;
 	}
@@ -928,6 +928,9 @@ footer {
     }
 
 	#wastetext p::before {
+		display: inline-block;
+		width: 30px;
+        height: 20px;
 		padding-right: 5px !important;
     	vertical-align: -30% !important;
 	}
