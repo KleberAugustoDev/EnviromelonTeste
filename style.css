@@ -583,6 +583,16 @@ footer {
 
 /* PAGE THANKS */
 
+
+/* TELA 2K */
+
+@media only screen and (min-width:2000px) and (max-width: 3000px) {
+	.banner #titlehome {
+		justify-content: center;
+	}
+}
+
+
 /* MOBILE ALL */
 @media only screen and (min-width:100px) and (max-width: 1080px) and (max-height: 1000px) {
 	
