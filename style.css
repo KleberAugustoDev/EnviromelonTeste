@@ -213,7 +213,7 @@ li > a:only-child:after { content: ''; }
     width: 100%;
     display: grid;
     grid-template-columns: repeat(10, 10%);
-    grid-template-rows: repeat(26, 110px);
+    grid-template-rows: repeat(29, 110px);
     gap: 0;
     row-gap: 8px;
 }
@@ -285,7 +285,7 @@ margin-left: 40px;
 	border-left: solid 5px #FF7077;
 	border-radius: 2px;
 	grid-column: 2 / 2;
-	grid-row: 7 / 16;	
+	grid-row: 11 / 19;
 
 }
 
