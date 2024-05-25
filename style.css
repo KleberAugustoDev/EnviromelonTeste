@@ -601,6 +601,12 @@ footer {
     }
 }
 
+@media only screen and (min-height:700px) and (max-height:1080px) {
+	.show {
+        margin-top: 55vh !important;
+    }
+}
+
 /* MENU MOBILE VARIANTS HEIGHT */
 
 
@@ -694,7 +700,6 @@ footer {
 	  text-align: center;
 	  width: 100%;
       margin: 0px;
-	  margin-top: 55vh !important;
 	}
 
 	.ulmobile {
