@@ -478,7 +478,7 @@ margin-left: 40px;
 #textarea {
 	width: 620px;
 	grid-column: 3 / 4;
-    grid-row: 2 / 4;
+    grid-row: 2 / 5;
 	background-color: transparent;
 	border: 2px solid #F6FAC5;
 	padding-left: 30px;
