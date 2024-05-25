@@ -969,6 +969,12 @@ footer {
 	margin-bottom: 30px;
 }
 
+#title h1 {
+	font-size: 46px;
+	line-height: 30px;
+}
+
+
 #fname {
 	height: 100%;
     width: 100%;
