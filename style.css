@@ -425,15 +425,11 @@ margin-left: 40px;
     height: 60vh;
 }
 
-#title {
-	display: grid;
-    grid-template-columns: repeat(4, 300px);
-    width: 100%;
-}
+
 
 #title h1 {
 	color: #56352C;
-	grid-column: 2 / 4;
+	grid-column: 1 / 4;
 }
 
 #form {
@@ -446,7 +442,7 @@ margin-left: 40px;
 #fname {
 	height: 60px;
 	grid-column: 1 / 1;
-    grid-row: 1 / 1;
+    grid-row: 2 / 2;
 	background-color: transparent;
     border: 2px solid #F6FAC5;
 	padding-left: 30px;
@@ -455,7 +451,7 @@ margin-left: 40px;
 #lname {
 	height: 60px;
 	grid-column: 2 / 2;
-    grid-row: 1 / 1;
+    grid-row: 2 / 2;
 	background-color: transparent;
     border: 2px solid #F6FAC5;
 	padding-left: 30px;
@@ -464,7 +460,7 @@ margin-left: 40px;
 #email {
 	height: 60px;
 	grid-column: 1 / 3;
-    grid-row: 2 / 2;
+    grid-row: 3 / 3;
 	background-color: transparent;
 	border: 2px solid #F6FAC5;
 	padding-left: 30px;
@@ -473,7 +469,7 @@ margin-left: 40px;
 #phone {
 	height: 60px;
 	grid-column: 1 / 3;
-    grid-row: 3 / 3;
+    grid-row: 4 / 4;
 	background-color: transparent;
 	border: 2px solid #F6FAC5;
 	padding-left: 30px;
@@ -482,7 +478,7 @@ margin-left: 40px;
 #textarea {
 	width: 620px;
 	grid-column: 3 / 4;
-    grid-row: 1 / 4;
+    grid-row: 2 / 4;
 	background-color: transparent;
 	border: 2px solid #F6FAC5;
 	padding-left: 30px;
