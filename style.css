@@ -713,11 +713,7 @@ footer {
 		display: none;
 	}
 
-
-
-
 	/* MENU MOBILE */
-
 
 	#align {
 		height: 100%;
@@ -773,8 +769,6 @@ footer {
 	}
 
 	 /* BANNER */
-
-
 
  	 /* TANK SERVICES */
 
@@ -1118,11 +1112,20 @@ footer {
 	grid-row: 2;
 }
 
+#infos h2 {
+	font-size: 20px;
+}
+
+#infos p {
+	font-size: 11px;
+}
+
 #social {
 	text-align: center;
 	grid-column: 1;
 	grid-row: 3;
 	width: 100%;
+	font-size: 11px;
 }
 
 /**/
