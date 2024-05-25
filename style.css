@@ -220,7 +220,7 @@ li > a:only-child:after { content: ''; }
 
 /* OUR SERVICES */
 
-.ourservice {
+#ourservice {
 	width: 100%;
 	line-height: 32px;
     direction: ltr;
