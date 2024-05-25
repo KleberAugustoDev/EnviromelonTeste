@@ -595,7 +595,7 @@ footer {
 
 
 /* MENU MOBILE VARIANTS HEIGHT */
-@media only screen and (min-height:100px) and (max-height:660px) {
+@media only screen and (min-height:100px) and (max-height:680px) {
 	.show {
         margin-top: 80vh !important;
     }
