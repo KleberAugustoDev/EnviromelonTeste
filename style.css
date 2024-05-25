@@ -800,7 +800,8 @@ footer {
 
 	#ourservice h1 {
 		font-size: 46px;
-		width: 80%;
+		width: 85%;
+		line-height: 40px;
 	}
 
 	#ourservice h2 {
