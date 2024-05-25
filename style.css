@@ -896,6 +896,11 @@ footer {
     	vertical-align: -40% !important;
 	}
 
+	#aligntranspo {
+		justify-content: center;
+        align-items: baseline;
+	}
+
 	#transpoimg {
         height: 600px;
         width: 100%;
